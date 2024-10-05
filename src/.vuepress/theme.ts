@@ -140,12 +140,6 @@ export default hopeTheme({
       pure: false,
     },
 
-    markdown: {
-      headers: {
-        // 用到哪一级就提取哪一级
-        level: [2, 3, 4, 5, 6],
-      },
-    },
 
     // MarkDown文件增强
     mdEnhance: {
