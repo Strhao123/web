@@ -8,7 +8,7 @@ const __dirname = getDirname(import.meta.url);
 
 //自定义用户配置
 export default defineUserConfig({
-  base: "/mynotes/",
+  base: "/hw_chen_Web/",
 
   // 多语言设置
   locales: {
@@ -41,7 +41,7 @@ export default defineUserConfig({
       // 最大推荐个数
       maxSuggestions: 7,
       // 排除首页
-      isSearchable: (page) => page.path !== "/",
+      // isSearchable: (page) => page.path !== "/",
     }),
   ],
 

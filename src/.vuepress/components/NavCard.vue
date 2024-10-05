@@ -11,7 +11,7 @@
                         <el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12" style="padding:0px;">
                             <div style="text-align:right;">
                                 <el-tooltip effect="dark" :content="cardObj.desc" placement="bottom">
-                                    <el-button :type="type" plain @click.native="gotoSite(cardObj.url)">{{cardObj.title}}</el-button>    
+                                    <el-button :type="type" plain @click.native="gotoSite(cardObj.url)">{{cardObj.title}}</el-button>
                                 </el-tooltip>
                             </div>
                         </el-col>

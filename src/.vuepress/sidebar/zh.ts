@@ -11,10 +11,9 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "Java基础",
-          icon: "java",
+          icon: "",
           link: "Java基础.md",
         },
-
       ],
     },
 
@@ -26,7 +25,7 @@ export const zhSidebar = sidebar({
       children: [
         {
           text: "javaweb基础",
-          icon: "java",
+          icon: "",
           collapsible: true,
           prefix: "basic/",
           children: ["xml.md","Tomcat.md","Servlet.md"],
@@ -70,7 +69,16 @@ export const zhSidebar = sidebar({
       text: "小镇技术宅",
       icon: "computer",
       collapsible: true,
-      link: "/floatinglife/iter/",
+      prefix: "/floatinglife/iter/",
+      children: [
+        {
+          text: "编写代码规范",
+          icon: "",
+          link: "code规范.md",
+        }
+
+      ],
+
     },
     {
       text: "小镇运动狂",
@@ -88,38 +96,4 @@ export const zhSidebar = sidebar({
 
 
 
-
-
-
-
-
-
-
-  // 开源项目的侧边栏
-  "/projects/": [
-    {
-      text: "技术教程",
-      icon: "guide",
-      collapsible: true,
-      link: "/projects/techguide/",
-    },
-    {
-      text: "实战项目",
-      icon: "workingDirectory",
-      collapsible: true,
-      link: "/projects/pracprojects/",
-    },
-    {
-      text: "系统设计",
-      icon: "shell",
-      collapsible: true,
-      link: "/projects/systemdesign/",
-    },
-    {
-      text: "工具类库",
-      icon: "module",
-      collapsible: true,
-      link: "/projects/toollibrary/",
-    },
-  ],
 });
