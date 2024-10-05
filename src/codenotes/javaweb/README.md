@@ -1,8 +1,8 @@
 ---
 # 当前页面内容标题
-title: 在线技术文档
+title: JavaWeb
 # 当前页面图标
-icon: read
+icon: java
 # 分类
 category:
   - 目录
@@ -20,6 +20,3 @@ article: false
 timeline: false
 ---
 
-## 前端
-
-* [CSS在线技术文档](http://c.biancheng.net/css3/what-is-css.html)

@@ -11,7 +11,7 @@ export default hopeTheme({
 
   // 文章显示的默认作者
   author: {
-    name: "Mr.Tong",
+    name: "Mr.Chen",
     url: "https://gitee.com/oucystong",
   },
 
@@ -22,7 +22,7 @@ export default hopeTheme({
   logo: "/site_logo.png",
 
   // 导航栏上的个人仓库地址
-  repo: "https://gitee.com/oucystong",
+  repo: "https://gitee.com/private_crh",
 
   // 自定义仓库链接文字-默认从repo中自动推断为"GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "Gitee",
@@ -103,20 +103,21 @@ export default hopeTheme({
     // 头像
     avatar: "/blog_head_logo.gif",
     // 名称
-    name: "Mr.Tong",
+    name: "Mr.Chen",
     // 是否是圆形头像
     roundAvatar: false,
     // 个人描述
     description: "你是无意穿堂风 偏偏孤倨引山洪",
     // 社交媒体
     medias: {
-      Gitee: "https://gitee.com/oucystong",
+      Gitee: "https://gitee.com/private_crh",
+      Bilibili: "https://space.bilibili.com/506956406?spm_id_from=333.1007.0.0"
     },
     // 博客的侧边栏设置
     sidebarDisplay: "mobile",
     // 每页展示的文章数量
     articlePerPage: 7,
-    timeline: "小佟の时光轴🍃",
+    timeline: "hw_chenの时光轴🍃",
   },
   plugins: {
     // 在MD文件中启用的组件
